@@ -3,5 +3,5 @@
   display: grid;
   grid-template-rows: 1fr;
   gap: 12rem;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
