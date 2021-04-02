@@ -1,0 +1,15 @@
+.c-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.c-content__illustration {
+  width: 100%;
+  max-width: 37.5rem;
+}
+
+.c-content .c-title {
+  width: 350px;
+}

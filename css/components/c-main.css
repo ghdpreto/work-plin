@@ -1,0 +1,7 @@
+.c-main {
+  max-width: 1240px;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 12rem;
+  margin: 0 auto;
+}
