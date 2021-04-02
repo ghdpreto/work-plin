@@ -5,10 +5,15 @@
 
 html,
 body {
-  width: 100vw;
   height: 100vh;
 }
 
 body {
   background-color: var(--bg-color);
+}
+
+form {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
