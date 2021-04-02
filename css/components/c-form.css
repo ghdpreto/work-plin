@@ -1,13 +1,23 @@
 .c-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 19rem 1fr;
+  grid-template-rows: repeat(3, 5rem);
+  align-items: center;
+  justify-items: center;
   margin-top: 2rem;
+  gap: 3.3rem;
 }
 
-.c-form__inputs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+.c-form > .c-input {
+  grid-column: 1;
+}
+
+.c-form > .c-input--description {
+  grid-column: 2;
+  grid-row: 1/4;
+}
+
+.c-form > .c-button {
+  grid-column: 1/3;
+  grid-row: 4;
 }
