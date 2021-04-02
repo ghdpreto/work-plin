@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="./css/components/c-form.css" />
     <link rel="stylesheet" href="./css/components/c-input.css" />
     <link rel="stylesheet" href="./css/components/c-contact.css" />
+    <link rel="stylesheet" href="./css/components/c-footer.css" />
+    <link rel="stylesheet" href="./css/components/c-button.css" />
 
     <title>Work Plin</title>
   </head>
@@ -55,15 +57,10 @@
       <section class="c-contact">
         <h2 class="c-title">Find your <span>plin</span>!</h2>
         <form action="#" class="c-form">
-          <div class="c-form__inputs">
-            <input class="c-input" type="text" placeholder="How many people?" />
-            <input class="c-input" type="text" placeholder="For how long?" />
-            <input
-              class="c-input"
-              type="email"
-              placeholder="Your best e-mail!"
-            />
-          </div>
+          <input class="c-input" type="text" placeholder="How many people?" />
+          <input class="c-input" type="text" placeholder="For how long?" />
+          <input class="c-input" type="email" placeholder="Your best e-mail!" />
+          <div class="c-form__inputs"></div>
           <textarea
             class="c-input c-input--description"
             name="description"
@@ -72,8 +69,19 @@
             rows="10"
             placeholder="Description..."
           ></textarea>
+          <button class="c-button">Submit</button>
         </form>
       </section>
     </main>
+    <footer class="c-footer">
+      <div class="c-footer__wrapper">
+        <nav class="c-nav">
+          <a class="c-nav__item c-nav__item--big" href="#">Blog</a>
+          <a class="c-nav__item c-nav__item--big" href="#">Joins us!</a>
+          <a class="c-nav__item c-nav__item--big" href="#">Help</a>
+        </nav>
+        <img src="./assets/logo-black.svg" alt="Logo Work Plin" />
+      </div>
+    </footer>
   </body>
 </html>
