@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="./css/components/c-main.css" />
     <link rel="stylesheet" href="./css/components/c-content.css" />
     <link rel="stylesheet" href="./css/components/c-title.css" />
+    <link rel="stylesheet" href="./css/components/c-form.css" />
+    <link rel="stylesheet" href="./css/components/c-input.css" />
+    <link rel="stylesheet" href="./css/components/c-contact.css" />
 
     <title>Work Plin</title>
   </head>
@@ -47,6 +50,29 @@
           alt="Illustration"
         />
         <h1 class="c-title"><span>Everything</span> in one clikc.</h1>
+      </section>
+
+      <section class="c-contact">
+        <h2 class="c-title">Find your <span>plin</span>!</h2>
+        <form action="#" class="c-form">
+          <div class="c-form__inputs">
+            <input class="c-input" type="text" placeholder="How many people?" />
+            <input class="c-input" type="text" placeholder="For how long?" />
+            <input
+              class="c-input"
+              type="email"
+              placeholder="Your best e-mail!"
+            />
+          </div>
+          <textarea
+            class="c-input c-input--description"
+            name="description"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="Description..."
+          ></textarea>
+        </form>
       </section>
     </main>
   </body>
