@@ -1,0 +1,16 @@
+.c-button {
+  border: none;
+  border-radius: 1rem;
+
+  background-color: var(--second-color);
+  color: var(--first-color);
+  max-width: 30rem;
+  width: 100%;
+  padding: 1rem 0;
+
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
