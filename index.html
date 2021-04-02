@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- RESET -->
+    <link rel="stylesheet" href="./css/elements/reset.css" />
+    <link rel="stylesheet" href="./css/elements/base.css" />
+    <link rel="stylesheet" href="./css/settings/colors.css" />
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -11,9 +17,37 @@
       rel="stylesheet"
     />
 
-    <title>Document</title>
+    <!-- COMPONENTS -->
+    <link rel="stylesheet" href="./css/components/c-header.css" />
+    <link rel="stylesheet" href="./css/components/c-nav.css" />
+    <link rel="stylesheet" href="./css/components/c-main.css" />
+    <link rel="stylesheet" href="./css/components/c-content.css" />
+    <link rel="stylesheet" href="./css/components/c-title.css" />
+
+    <title>Work Plin</title>
   </head>
   <body>
-    <h1>Olá mundo!!!</h1>
+    <header class="c-header">
+      <img
+        class="c-header__logo"
+        src="./assets/logo.svg"
+        alt="Logo Work Plin"
+      />
+      <nav class="c-nav">
+        <a class="c-nav__item" href="#">About</a>
+        <a class="c-nav__item" href="#">Places</a>
+        <a class="c-nav__item" href="#">Contact</a>
+      </nav>
+    </header>
+    <main class="c-main">
+      <section class="c-content">
+        <img
+          class="c-content__illustration"
+          src="./assets/illustration.svg"
+          alt="Illustration"
+        />
+        <h1 class="c-title"><span>Everything</span> in one clikc.</h1>
+      </section>
+    </main>
   </body>
 </html>

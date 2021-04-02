@@ -1,0 +1,11 @@
+.c-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.c-nav__item {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+}

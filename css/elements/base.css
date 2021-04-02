@@ -1,0 +1,14 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: var(--second-color);
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: var(--bg-color);
+}
